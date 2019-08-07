@@ -20,6 +20,7 @@ public class MyfirstServlet extends HttpServlet {
 		response.setContentType("text/html;charset=utf-8");
 		if("张三".equals(username)&&"123456".equals(password)) {
 			response.getWriter().print("上海滩");
+			response.getWriter().print("老徐");
 		}else {
 			response.getWriter().print("用户名或密码错误,hahahaha");
 		}
