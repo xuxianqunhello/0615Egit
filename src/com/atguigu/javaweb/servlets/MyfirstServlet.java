@@ -21,7 +21,7 @@ public class MyfirstServlet extends HttpServlet {
 		if("张三".equals(username)&&"123456".equals(password)) {
 			response.getWriter().print("上海滩");
 		}else {
-			response.getWriter().print("用户名或密码错误");
+			response.getWriter().print("用户名或密码错误,hahahaha");
 		}
 	}
 
