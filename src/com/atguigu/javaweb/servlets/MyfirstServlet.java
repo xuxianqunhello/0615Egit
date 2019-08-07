@@ -22,6 +22,7 @@ public class MyfirstServlet extends HttpServlet {
 			response.getWriter().print("上海滩");
 			response.getWriter().print("上海滩");
 			response.getWriter().print("老徐");
+			response.getWriter().print("老徐");
 		}else {
 			response.getWriter().print("用户名或密码错误,hahahaha");
 		}
